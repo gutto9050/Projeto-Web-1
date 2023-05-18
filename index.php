@@ -1,4 +1,9 @@
 
+<?php 
+        require "Eventos.php";
+                
+ ?>
+        
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,31 +14,55 @@
 </head>
 <body>
         
-    <?php 
-        include "Eventos.php";
-                
-        foreach ( $evento as $eventos ) { ?>
+    <header>
+                <h1> Star Ingress </h1>
 
-                <h1> <?=$eventos["nome"]?> </h1>
+    </header>
 
-                <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento">
+    <div class="Destaque">
+        <h2>Destaque</h2>
+    </div>
+            
+    <div class="Cinema">
+        <h2>Cinemas</h2>
 
-              
-                <p> <?=$eventos['local']?> </p>
-                <p> <?=$eventos['data']?> </p>
-                <p> <?=$eventos['hora']?> </p>
-                <p> <?=$eventos['preco']?> </p>
-                <p> <?=$eventos['tipo']?> </p>
-                <p> <?=$eventos['nivel']?> </p>
+        <?php foreach ( $evento as $eventos ) { ?>
 
-                <p> <?=$eventos['descricao']?> </p>
+         <h3> <?=$eventos["nome"]?> </h3>
+         <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento">
+
+         <p> <?=$eventos['data']?> </p>
+         <p> <?=$eventos['tipo']?> </p>
+
+         <a href="detalhamento.pho"> Detalhes </a>
+
+         <?php } ?>
+    </div>
 
 
+    <div class="Show">
+        <h2>Shows</h2>
+
+   
+
+        <h3> <?=$shows["nome"]?> </h3>
+         <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento">
+
+         <p> <?=$shows['data']?> </p>
+         <p> <?=$shows['tipo']?> </p>
+
+         <a href="detalhamento.pho"> Detalhes </a>
+
+         
+
+    </div>
+                  
 
 
+    <footer>
 
 
-    <?php } ?>
+    </footer>
 
 </body>
 </html>

@@ -13,6 +13,7 @@ $evento = [
         'nivel' => 'Deluxe',
         'descricao' => 'Sinopse.... Evento de pré-estreia all inclusive com brindes. ',
         'imagem' => '/Imagen/poster-guardioes-da-galaxia-vol-3-.jpg'
+       
 
     ],
 
@@ -26,13 +27,9 @@ $evento = [
         'tipo' => 'Cinema',
         'nivel' => 'Ultimate',
         'descricao' => 'Sinopse.... Evento de pré-estreia all inclusive com brindes e jogos e intrevistas. ',
-        'imagem' => '/Imagen/Spider-Man.jpg'
-    ]
-
-
-]
-
-
+        'imagem' => '/Imagen/Spider-Man.jpg'   
+       
+    ],
 
     [
     'id' => 3,
@@ -69,7 +66,7 @@ $evento = [
         'hora' => '20:30',
         'tipo' => 'terror',
         'nivel' => 'continuação',
-        'descricao' => 'O padre Gabriele Amorth, exorcista do Vaticano, luta contra Satanás e demônios possuidores de inocentes. Um retrato detalhado de um padre que realizou mais de 100 mil exorcismos em sua vida.'
+        'descricao' => 'O padre Gabriele Amorth, exorcista do Vaticano, luta contra Satanás e demônios possuidores de inocentes. Um retrato detalhado de um padre que realizou mais de 100 mil exorcismos em sua vida.',
         'imagem' => '/imagen/exorcista.jpg'
     ],
 
@@ -82,8 +79,13 @@ $evento = [
         'hora' => '15:30',
         'tipo' => 'infantil',
         'nivel' => 'live action',
-        'descricao' => 'Wendy Darling, uma jovem com medo de deixar sua casa de infância para trás, conhece Peter Pan, um menino que se recusa a crescer. Com seus irmãos e uma fada, Tinker Bell, ela viaja com Peter para o mundo mágico da Terra do Nunca. Lá, ela encontra um pirata perverso chamado Capitão Gancho, e embarca em uma aventura emocionante que vai mudar sua vida para sempre.'
+        'descricao' => 'Wendy Darling, uma jovem com medo de deixar sua casa de infância para trás, conhece Peter Pan, um menino que se recusa a crescer. Com seus irmãos e uma fada, Tinker Bell, ela viaja com Peter para o mundo mágico da Terra do Nunca. Lá, ela encontra um pirata perverso chamado Capitão Gancho, e embarca em uma aventura emocionante que vai mudar sua vida para sempre.',
         'imagem' => '/imagen/peterpan.jpg'
     ]
 
+    ];
+
+
+
 ?>
+
