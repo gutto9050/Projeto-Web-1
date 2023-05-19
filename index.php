@@ -1,9 +1,6 @@
-
-<?php 
-        require "Eventos.php";
-                
- ?>
-        
+<?php
+require "eventos.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
