@@ -1,5 +1,108 @@
-header{
-    text-align: center;
-    background-color: #BEDAFF;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600;900&family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+
+
+.titulo{
     color: white;
+    font-family: 'Cinzel Decorative' ,'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+}
+.top{
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #BEDAFF;
+}
+.dts{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+.Medio{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #143653;
+    text-align: center;
+
+}
+line{
+    width: 267px;
+    height: 0px;
+    left: 1145px;
+    top: 175px;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+.dts{
+    text-align: end;
+    width: 840px;
+    height: 34px;
+    left: 500px;
+    top: 158px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+.circulo{
+    width: 296px;
+    height: 285px;
+    left: 79px;
+    top: 1168px;
+    background: #BEDAFF;
+    border-radius: 180px;
+}
+.fundo{
+    width: 1250px;
+    height: 130px;
+    left: 0px;
+    top: 3038px;
+    background: #BEDAFF;
+}
+.lines{
+    width: 325px;
+    height: 5px;
+    left: 559px;
+    top: 1110px;
+    background: #BEDAFF;
+    margin-left: 39%;
+    margin-right: 50%;
+}
+.ponto{
+    width: 267px;
+    height: 0px;
+    left: 1100px;
+    top: 175px;
+    border: 1px solid #000000;
+}
+.DT{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.imagem{
+    width: 198px;
+    height: 280px;
+    left: 79px;
+    top: 1229px;
+
 }
