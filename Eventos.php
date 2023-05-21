@@ -85,6 +85,44 @@ $evento = [
 
     ];
 
+ 
+ $shows[
+
+    [
+    "id" => 7,
+    "nome" => "Renaissance Tour",
+    "local" => "Belo Horizonte - MG, Arena BH Beach",
+    "preco" => "R$ 900",
+    "hora" => "19:00",
+    "tipo" => "show",
+    "nivel" => "turnê",
+    "imagem" => "imagen/beyonce.jpg"
+    ],
+
+    [
+        "id" => 8,
+        "nome" => "The eras Tour",
+        "local" => "Rio de Janeiro - RJ, Arena Tuiuti",
+        "preco" => "R$ 2500",
+         "hora" => "19:30",
+        "tipo" => "show",
+        "nivel" => "turnê",
+        "imagem" => "imagen/theras.jpg"
+    ],
+
+    [
+        "id" => 9,
+        "nome" => "The Celebration Tour",
+        "local" => "Rio de Janeiro, Parque dos atletas",
+        "preco" => "R$ 3500",
+        "hora" => "20:00",
+        "tipo" => "show",
+        "nivel" => "turnê",
+        "imagem" => "imagen/celebration.jpg"
+    ]
+
+    
+ ];
 
 
 ?>
