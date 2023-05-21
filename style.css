@@ -26,7 +26,10 @@
     font-style: normal;
     font-size: 30px;
     color: #000000;
-    text-align: center;
+    margin: 0px;
+    border: 0px;
+    
+
 }
 .Medio{
     font-family: 'Cinzel Decorative';
@@ -38,26 +41,15 @@
     text-align: center;
 
 }
-line{
-    width: 267px;
-    height: 0px;
-    left: 1145px;
-    top: 175px;
-    border: 1px solid #000000;
-    background-color: #000000;
-}
 .dts{
-    text-align: end;
-    width: 840px;
-    height: 34px;
-    left: 500px;
-    top: 158px;
     font-family: 'Cinzel';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 35px;
     color: #000000;
+    text-align: center;
+    margin: 10px;
 
 }
 .circulo{
@@ -81,8 +73,9 @@ line{
     left: 559px;
     top: 1110px;
     background: #BEDAFF;
-    margin-left: 39%;
+    margin-left: 37%;
     margin-right: 50%;
+    margin-top: 0px;
 }
 .ponto{
     width: 267px;
@@ -90,14 +83,15 @@ line{
     left: 1100px;
     top: 175px;
     border: 1px solid #000000;
+    margin: 0px;
 }
 .DT{
     display: flex;
     flex-direction: row;
-}
-.one{
-    display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
 }
 .imagem{
     width: 198px;
@@ -105,4 +99,34 @@ line{
     left: 79px;
     top: 1229px;
 
+}
+.dados{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    color: #777395;
+
+}
+.link{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #E98DAE;
+
+}
+.nome{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    color: #000000;
+
+}
+.container{
+    display: grid;
 }

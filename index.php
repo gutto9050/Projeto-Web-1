@@ -13,15 +13,18 @@ require "eventos.php";
 <body>
         
     <header class="top">
-                <h1 class="titulo"> Star <br>
-                                    Ingress </h1>
 
+                <h1 class="titulo"> Star <br> Ingress </h1>
     </header>
 
         <div class="DT">
+
             <hr  class="ponto" >
+            
                 <h3 class="dts"> Fique atento as datas e localização dos eventos </h3>    
+
             <hr  class="ponto" >
+
         </div>
 
     <div class="Destaque">
@@ -35,27 +38,33 @@ require "eventos.php";
 
         <img src="/Imagen/henrique.jpeg" alt="banner show">
     </div>
+
+
             
     <div class="Cinema">
-        <h2 class="Medio">Cinema</h2>
-        <div class="lines"></div>
 
+        <h2 class="Medio">Cinema</h2>
+        
+    <div class="lines"></div>
+        
+<div class="container">
+    
         <?php foreach ( $evento as $eventos ) { ?>
 
-         <h3> <?=$eventos['nome']?> </h3>
-         <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento" class="imagem">
+            <h3 class="nome"> <?=$eventos['nome']?> </h3>
+            <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento" class="imagem">
 
-        <div class="circulo"> </div>
+     <div class="circulo"> </div>
 
-         <p> <?=$eventos['data']?> </p>
-         <p> <?=$eventos['tipo']?> </p>
+            <p class="dados"> <?=$eventos['data']?> </p>
+            <p class="dados"> <?=$eventos['tipo']?> </p>
 
-         <a href="detalhamento.pho"> Detalhes </a>
+            <a href="detalhamento.pho" class="link"> Detalhes </a>
 
          <?php } ?>
     </div>
 
-
+</div>    
     <div class="Show">
         <h2 class="Medio">Shows</h2>
         <div class="lines"></div>
