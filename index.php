@@ -59,7 +59,7 @@ require "eventos.php";
             <p class="dados"> <?=$eventos['data']?> </p>
             <p class="dados"> <?=$eventos['tipo']?> </p>
 
-            <a href="detalhamento.pho" class="link"> Detalhes </a>
+            <a href="detalhamento.php" class="link"> Detalhes </a>
 
          <?php } ?>
     </div>
@@ -79,7 +79,7 @@ require "eventos.php";
          <p> <?=$shows['data']?> </p>
          <p> <?=$shows['tipo']?> </p>
 
-         <a href="detalhamento.pho"> Detalhes </a>
+         <a href="detalhamento.php"> Detalhes </a>
 
          
 
