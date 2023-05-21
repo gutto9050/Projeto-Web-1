@@ -35,52 +35,57 @@ require "eventos.php";
          <div class="lines"></div>
 
     </div>
-
-        <img src="/Imagen/henrique.jpeg" alt="banner show">
     </div>
 
 
             
     <div class="Cinema">
 
-        <h2 class="Medio">Cinema</h2>
+                <h2 class="Medio">Cinema</h2>
         
     <div class="lines"></div>
         
 <div class="container">
     
-        <?php foreach ( $evento as $eventos ) { ?>
-
-            <h3 class="nome"> <?=$eventos['nome']?> </h3>
-            <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento" class="imagem">
+        <?php foreach ( $evento as $i => $c) { ?>
+                <a href="detalhamento.php?i=<?=$i?>">
+                <h3 class="nome"> <?=$c['nome']?> </h3>
+                <img src="<?=$c["imagem"]?>"  alt="Poster Evento" class="imagem">
 
      <div class="circulo"> </div>
 
-            <p class="dados"> <?=$eventos['data']?> </p>
-            <p class="dados"> <?=$eventos['tipo']?> </p>
+                 <p class="dados"> <?=$c['data']?> </p>
+                 <p class="dados"> <?=$c['tipo']?> </p>
 
-            <a href="detalhamento.php" class="link"> Detalhes </a>
+                <a class="link" href="detalhamento.php?i=<?=$i?>"> Detalhes </a> 
 
          <?php } ?>
     </div>
 
+
+           <hr>
+
+
+
 </div>    
     <div class="Show">
-        <h2 class="Medio">Shows</h2>
-        <div class="lines"></div>
+                 <h2 class="Medio">Shows</h2>
+                 <div class="lines"></div>
 
-   
-
-        <h3> <?=$shows["nome"]?> </h3>
-         <img src="<?=$eventos["imagem"]?>"  alt="Poster Evento" class="imagem" >
+        
+        <?php foreach ( $shows as $e => $s ) { ?>
+                 <h3 class="nome"> <?=$s["nome"]?> </h3>
+                 <img src="<?=$s["imagem"]?>"  alt="Poster Evento" class="imagem" >
 
          <div class="circulo"> </div>
 
-         <p> <?=$shows['data']?> </p>
-         <p> <?=$shows['tipo']?> </p>
+                 <p class="dados"> <?=$s['data']?> </p>
+                 <p class="dados"> <?=$s['tipo']?> </p>
 
-         <a href="detalhamento.php"> Detalhes </a>
-
+                 <a class="link" href="detalhamento2.php?i=<?=$e?>"> Detalhes </a>
+         <?php } ?>
+        
+       
          
 
     </div>
@@ -94,3 +99,4 @@ require "eventos.php";
 
 </body>
 </html>
+
