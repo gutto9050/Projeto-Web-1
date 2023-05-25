@@ -28,7 +28,8 @@ require "eventos.php";
         </div>
 
     <div class="Destaque">
-    
+        <img src = "imagem/henrique.jpg" alt = "imagem do destaque">
+
     <div class="one"> 
 
          <h2 class="Medio">Destaque</h2>
