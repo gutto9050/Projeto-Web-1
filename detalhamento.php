@@ -54,12 +54,22 @@ if(isset($evento[$indice])){
                 <p><?=$c["hora"]?> </p>
                 <p><?=$c["tipo"]?> </p>
                 <p><?=$c["nivel"]?> </p>
-                <p><?=$c["descricao"]?> </p>
-        <?php } ?>
+               
+        
+<hr>
 
-			<a href="index.php" class="link">Voltar</a>
-       
-		</div>
+<div class="peti">
+
+<h2 class="sinop">Sinopse/descrição</h2>
+
+<p class="text" > <?=$c["descricao"]?> </p>
+<?php } ?>
+
+    <a href="index.php" class="link">Voltar</a>
+
+</div>
+
+			
 			
 		
 	</div>
