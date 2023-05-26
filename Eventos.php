@@ -102,7 +102,7 @@ $evento = [
          "genero" => "Terror",
          "nivel" => "Rexibição",
          "descricao" => "Em It - Capítulo 2, 27 anos depois dos eventos de It - A Coisa, Mike (Isaiah Mustafa) percebe que o palhaço Pennywise (Bill Skarsgard) está de volta à cidade de Derry. Ele convoca os antigos amigos do Clube dos Otários para honrar a promessa de infância e acabar com o inimigo de uma vez por todas. Mas quando Bill (James McAvoy), Beverly (Jessica Chastain), Ritchie (Bill Hader), Ben (Jay Ryan) e Eddie (James Ransone) retornam às suas origens, eles precisam se confrontar a traumas nunca resolvidos de suas infâncias, e que repercutem até hoje na vida adulta.",
-         "imagem" => "Imagen/it-2.jpg"
+         "imagem" => "Imagen/it-2.jpeg"
     ],
     [
         "id" => 14,
