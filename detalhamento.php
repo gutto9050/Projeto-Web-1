@@ -54,7 +54,7 @@ if(isset($evento[$indice])){
                 <p><?=$c["hora"]?> </p>
                 <p><?=$c["tipo"]?> </p>
                 <p><?=$c["nivel"]?> </p>
-               
+               <p> <?=$c["genero"]?> </p>
         
 <hr>
 
