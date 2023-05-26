@@ -55,7 +55,7 @@ $indice = $_GET["i"];
 
         <h2 class="sinop">Sinopse/descrição</h2>
 
-        <p class="text" > <?=$c["descricao"]?> </p>
+        <p class="text" > <?=$s["descricao"]?> </p>
         <?php } ?>
 
 			<a href="index.php" class="link">Voltar</a>
