@@ -236,6 +236,19 @@ $shows = [
         "genero" => "Sertanejo",
         "descricao" => "  Henrique e Juliano é uma dupla sertaneja formada pelos irmãos Ricelly Henrique Tavares Reis (23 de maio de 1989) e Edson Alves dos Reis Junior (27 de novembro de 1990) ambos nascidos na cidade de Palmeirópolis, interior do estado de Tocantins.",
         "imagem" => "Imagen/banner-destaque-desktop.jpeg" 
+     ],
+    
+     [   "id" => 13,
+        "nome" => "Chromatica",
+        "data" => "30/07/2023",
+        "local" => "Espaço cantareia , Niteroi-RJ",
+        "preco" => "R$ 2500",
+        "hora" => "22:00",
+        "tipo" => "show",
+        "nivel" => "Turnê",
+        "genero" => "Pop",
+        "descricao" => "The Chromatica Ball foi a sexta turnê da cantora e compositora norte-americana Lady Gaga, em apoio ao seu sexto álbum de estúdio, Chromatica. A turnê, exclusivamente em estádios, teve início em 17 de julho de 2022, em Düsseldorf, Alemanha, e terminou em 17 de setembro de 2023, em Miami Gardens, Estados Unidos.",
+        "imagem" => "Imagen/chromaticaball.jpg" 
      ]
     
     ];
