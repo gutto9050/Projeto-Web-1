@@ -28,24 +28,21 @@
     <div class="Destaque">
 
          <h2 class="Medio">Destaque</h2>
-             <div class="lines"></div>
-                 <img src="Imagen/banner-destaque-desktop.jpeg" alt="banner show" class="banner">
+         <div class="lines"></div>
 
-                 <a href="detalhamento2.php?i=4" class="new"> Detalhes</a>
-</div>
+    </div>
+    </div>
 
                 <h2 class="Medio">Cinema</h2>
-                <div class="lines"></div>
-
-    <div class="container">
+        
+    <div class="lines"></div>
+        
+<div class="container">
     
-     <div class="Cinema">
-
         <?php foreach ( $evento as $i => $c) { ?>
-
-              
-              <h3 class="nome"> <?=$c['nome']?> </h3> 
-                <img src="<?=$c['imagem']?>"  alt="Poster Evento" class="imagem">
+                <a href="detalhamento.php?i=<?=$i?>">
+                <h3 class="nome"> <?=$c['nome']?> </h3>
+                <img src="<?=$c["imagem"]?>"  alt="Poster Evento" class="imagem">
 
                  <div class="circulo"> </div> 
 
@@ -56,9 +53,14 @@
 
          <?php } ?>
     </div>
-  
-        </div>    
-   
+
+
+           <hr>
+
+
+
+</div>    
+    <div class="Show">
                  <h2 class="Medio">Shows</h2>
                  <div class="lines"></div>
 
@@ -80,10 +82,10 @@
                   
 
 
-    <footer class="fundo">  </footer>
+    <footer class="fundo">
 
-
+              
+    </footer>
 
 </body>
 </html>
-

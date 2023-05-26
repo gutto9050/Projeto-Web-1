@@ -1,59 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600;900&family=Titillium+Web:wght@400;600;700&display=swap');
 
-
-
-
-.titulo{
+.titulo {
     color: white;
-    font-family: 'Cinzel Decorative' ,'Gill Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
+    font-family: 'Cinzel Decorative', 'Gill Sans';
+    
+   
+font-style: normal;
+    
+   
+font-weight: 700;
+    
+   
+font-size: 45px;
     line-height: 61px;
-    text-align: center;
+    
+   
+text-align: center;
 }
-.top{
-    width: auto;
+
+.top {
+    
+   
+width: auto;
     height: auto;
     left: 0px;
-    top: 0px;
+    
+   
+top: 0px;
     background: #BEDAFF;
 }
-.dts{
-    font-family: 'Cinzel';
-    font-style: normal;
+
+.dts {
+    
+   
+font-family: 'Cinzel';
+    
+   
+font-style: normal;
     font-size: 30px;
     color: #000000;
-    margin: 0px;
-    border: 0px;
     
-
+   
+margin: 0px;
+    border: 0px;
 }
-.Medio{
+
+.Medio {
     font-family: 'Cinzel Decorative';
-    font-style: normal;
+    
+   
+font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    
+   
+font-size: 45px;
     line-height: 61px;
     color: #143653;
     text-align: center;
-    margin-bottom: 0px;
 
 }
-.dts{
-    font-family: 'Cinzel';
+
+.dts {
+    
+   
+font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 400;
+    
+   
+font-weight: 400;
     font-size: 25px;
     line-height: 35px;
     color: #000000;
     text-align: center;
-    margin: 10px;
-
+    
+   
+margin: 10px;
 }
-.circulo{
+
+.circulo {
     width: 296px;
     height: 285px;
     left: 79px;
@@ -62,24 +87,31 @@
     border-radius: 180px;
 }
 .fundo{
-    width: auto;
+    width: 1250px;
     height: 130px;
     left: 0px;
     top: 3038px;
-    background: #BEDAFF;
+    
+   
+background: #BEDAFF;
 }
-.lines{
+
+.lines {
     width: 325px;
-    height: 5px;
-    left: 559px;
+    
+   
+height: 5px;
+    
+   
+left: 559px;
     top: 1110px;
     background: #BEDAFF;
-    margin-left: 40%;
+    margin-left: 37%;
     margin-right: 50%;
-  
+    margin-top: 0px;
 }
 .ponto{
-    width: 480px;
+    width: 267px;
     height: 0px;
     left: 1400px;
     top: 175px;
@@ -87,39 +119,48 @@
     margin: 0px;
     
 }
-.DT{
-    display: flex;
+
+.DT {
+    
+   
+display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    
 
 }
-.imagem{
+
+.imagem {
     width: 198px;
     height: 280px;
     left: 79px;
     top: 1229px;
-    position: absolute;
-    margin-left: 30%;
 
 }
-.dados{
+
+.dados {
     font-family: 'Titillium Web';
     font-style: normal;
-    font-weight: 400;
+    
+   
+font-weight: 400;
     font-size: 30px;
-    line-height: 46px;
+    
+   
+line-height: 46px;
     color: #777395;
-
 }
-.link{
+
+.link {
     font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 600;
+    
+   
+font-style: normal;
+    
+   
+font-weight: 600;
     font-size: 30px;
-    line-height: 46px;
-    color: #E98DAE;
+    
 
 }
 .nome{
@@ -131,93 +172,6 @@
     color: #000000;
 
 }
-.Cinema img{
-   border: 5px;
-   border-color: #143653;
-}
-.card{
-    background: rgba(255, 237, 203, 0.35);
-   width: auto;
-   height: 565px;
-   left: 0px;
-   top: 0px;
-   margin-bottom: 15px;
-}
-.sinop{
-    font-family: 'Cinzel-decorative';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 61px;
-    color: #777395;
-}
-.text{
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-size: 35px;
-    color: #000000;
-
-}
-.seta{
-    position: absolute;
-    top: 65px;
-    left: 25px;
-    width: 46px;
-    height: 46px;
-    
-}
-.paragrafo{
-    font-family: 'Cinzel-decorative';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    color: #000000;
-}
-.banner{
-    width: auto;
-    height: 700px;
-    margin-left: 2% ;
-    margin-right: auto ;
-    margin-top: 50px;
-}
-.new{
-    position: absolute;
-    left: 1420px;
-    top: 1025px;
-
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-size: 20px;;
-    color: #FFFFFF;
-
-
-    background: rgba(0, 0, 0, 0.75);
-    opacity: 0.8;
-    border-radius: 80px;
-    
-}
-hr{
-    color: #BEDAFF;
-    height: 3px;
-}
-.para{
-    position: absolute;
-    top: 170px ;
-    left: 550px;
-}
-.img2{
-    height: 500px ;
-    width: 500px ;
-    margin-top: 15px;
-    margin-left: 30px;
-}
-
- h3.paragrafo {
-    font-size: 45px;
-    line-height: 15px;
-    color: #777395;
-}
 .container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
