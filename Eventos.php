@@ -130,7 +130,7 @@ $evento = [
         "genero" => "Ficção Cientifica/Aventura",
         "descricao" => "Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece sua mãe (Lea Thompson), antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.
         ",
-        "imagem" => "Imagen/futuro.jpeg.webp"
+        "imagem" => "Imagen/futuro.jpg"
     ],
     [
         "id" => 15,
