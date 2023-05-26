@@ -60,7 +60,7 @@ $evento = [
         "genero" => "infantil",
         "nivel" => "Estreia",
         "descricao" => "Remake live action do clássico desenho animado A Pequena Sereia, de 1989, da Disney. A caçula das filhas do Rei Tritão (Javier Bardem), Ariel (Halle Bailey) é uma bela e espirituosa jovem sereia com sede de aventura. Desejando descobrir mais sobre o mundo além do mar, Ariel visita a superfície e se apaixona intensamente pelo arrojado Príncipe Eric (Jonah Hauer-King), ao salvá-lo de um naufrágio. Mas para procurá-lo em terra firme e se aproximar do príncipe humano, a sereia pede ajuda à bruxa do mar, Úrsula (Melissa McCarthy), e aceita ceder sua voz para que a feiticeira lhe dê pernas. Agora, ela terá o desafio de se comunicar com o rapaz ao experimentar a vida em terra firme, além de entrar em conflito com os valores de sua família. A Pequena Sereia é um conto de fadas literário escrito pelo autor dinamarquês Hans Christian Andersen, publicado pela primeira vez em 1837.",
-        "imagem" => "Imagen/apequenasereia.jpg"
+        "imagem" => "Image/apequenasereia.jpg"
     ],
 
     [
@@ -102,7 +102,7 @@ $evento = [
          "genero" => "Terror",
          "nivel" => "Rexibição",
          "descricao" => "Em It - Capítulo 2, 27 anos depois dos eventos de It - A Coisa, Mike (Isaiah Mustafa) percebe que o palhaço Pennywise (Bill Skarsgard) está de volta à cidade de Derry. Ele convoca os antigos amigos do Clube dos Otários para honrar a promessa de infância e acabar com o inimigo de uma vez por todas. Mas quando Bill (James McAvoy), Beverly (Jessica Chastain), Ritchie (Bill Hader), Ben (Jay Ryan) e Eddie (James Ransone) retornam às suas origens, eles precisam se confrontar a traumas nunca resolvidos de suas infâncias, e que repercutem até hoje na vida adulta.",
-         "imagem" => "Imagen/it-2.jpeg"
+         "imagem" => "Imagen/it-2.jpg"
     ],
     [
         "id" => 14,
@@ -119,7 +119,7 @@ $evento = [
         "imagem" => "Imagen/coringa.jpeg"
     ],
     [
-        "id" => 14,
+        "id" => 15,
         "nome" => "De volta para o futuro",
         "local" => "Vitoria da Conquista - Ba, Shopping conquista Sul",
         "data" => "30/09/2023",
@@ -130,10 +130,10 @@ $evento = [
         "genero" => "Ficção Cientifica/Aventura",
         "descricao" => "Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece sua mãe (Lea Thompson), antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.
         ",
-        "imagem" => "Imagen/futuro.jpg"
+        "imagem" => "Imagen/futuro.jpeg.webp"
     ],
     [
-        "id" => 15,
+        "id" => 16,
         "nome" => "Super Mario Bros - O filme",
         "local" => "Vitoria da Conquista - Ba, Shopping conquista Sul",
         "data" => "12/12/2023",
@@ -142,13 +142,11 @@ $evento = [
         "tipo" => "Cinema",
         "nivel" => "Estreia",
         "genero" => "Aventura/Fantasia",
-        "descricao" => "Mario é um filme baseado na série de video games, Super Mario Bros, da Nintendo. Em Super Mario Bros. - O Filme, Mario (Chris Pratt) é um encanador qualquer no bairro de Brooklyn junto com seu irmão Luigi (Charlie Day). Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach (Anya Taylor-Joy), mas ameaçado pelo rei dos Koopas, Bowser (Jack Black), que vai fazer de tudo para conseguir reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para procurar Mario, o único capaz de deter o Koopa e reestabelexcer a paz. Mario terá que aprender como viver nesse novo reino perigoso, passando por vários biomas, aprender a dirigir carros, utilizar itens que o fazem soltar bolas de fogo das mãos, virar um animal e andar em plataformas nada confiáveis. Também estará acompanhados de amigos, como Toad (Keegan-Michael Key) e Donkey Kong (Seth Rogan).
-
-        ",
+        "descricao" => "Mario é um filme baseado na série de video games, Super Mario Bros, da Nintendo. Em Super Mario Bros. - O Filme, Mario (Chris Pratt) é um encanador qualquer no bairro de Brooklyn junto com seu irmão Luigi (Charlie Day). Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach (Anya Taylor-Joy), mas ameaçado pelo rei dos Koopas, Bowser (Jack Black), que vai fazer de tudo para conseguir reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para procurar Mario, o único capaz de deter o Koopa e reestabelexcer a paz. Mario terá que aprender como viver nesse novo reino perigoso, passando por vários biomas, aprender a dirigir carros, utilizar itens que o fazem soltar bolas de fogo das mãos, virar um animal e andar em plataformas nada confiáveis. Também estará acompanhados de amigos, como Toad (Keegan-Michael Key) e Donkey Kong (Seth Rogan).   ",
         "imagem" => "Imagen/mario.jpeg.webp"
     ],
     [
-        "id" => 16,
+        "id" => 17,
         "nome" => "DUNA",
         "local" => "Vitoria da Conquista - Ba, Shopping conquista Sul",
         "data" => "15/01/2024",
@@ -167,7 +165,7 @@ $evento = [
     
 $shows = [
     [
-        "id" => 7,
+        "id" => 18,
         "nome" => "Renaissance Tour",
         "local" => "Belo Horizonte - MG, Arena BH Beach",
         "data" => "18/08/2023",
@@ -181,7 +179,7 @@ $shows = [
     ],
 
     [
-        "id" => 8,
+        "id" => 19,
         "nome" => "The eras Tour",
         "data" => "20/08/2023",
         "local" => "Rio de Janeiro - RJ, Arena Tuiuti",
@@ -195,7 +193,7 @@ $shows = [
     ],
 
     [
-        "id" => 9,
+        "id" => 20,
         "nome" => "The Celebration Tour",
         "data" => "29/06/2023",
         "local" => "Rio de Janeiro, Parque dos atletas",
@@ -209,7 +207,7 @@ $shows = [
     ],
 
     [
-        "id" => 10,
+        "id" => 21,
         "nome" => "Ensaios da Anitta",
         "data" => "28/05/2023",
         "local" => "Centro de Convenções",
@@ -225,31 +223,57 @@ $shows = [
         
     ],
 
-     [   "id" => 12,
-        "nome" => "Henrique e Juliano",
-        "data" => "31/12/2023",
-        "local" => "Espaço cantareia , Niteroi-RJ",
-        "preco" => "R$ 300",
+    [   "id" => 22,
+    "nome" => "Chromatica",
+    "data" => "30/07/2023",
+    "local" => "Espaço cantareia , Niteroi-RJ",
+    "preco" => "R$ 2500",
+    "hora" => "22:00",
+    "tipo" => "show",
+    "nivel" => "Turnê",
+    "genero" => "Pop",
+    "descricao" => "The Chromatica Ball foi a sexta turnê da cantora e compositora norte-americana Lady Gaga, em apoio ao seu sexto álbum de estúdio, Chromatica. A turnê, exclusivamente em estádios, teve início em 17 de julho de 2022, em Düsseldorf, Alemanha, e terminou em 17 de setembro de 2023, em Miami Gardens, Estados Unidos.",
+    "imagem" => "Imagen/chromaticaball.jpg" 
+    ],
+    [  
+         "id" => 23,
+        "nome" => "Noitada Tour",
+        "data" => "01/12/2023",
+        "local" => "Espaço Unimed, São Paulo",
+        "preco" => "R$ 90",
         "hora" => "22:00",
         "tipo" => "show",
-        "nivel" => "Gravação de CD",
-        "genero" => "Sertanejo",
-        "descricao" => "  Henrique e Juliano é uma dupla sertaneja formada pelos irmãos Ricelly Henrique Tavares Reis (23 de maio de 1989) e Edson Alves dos Reis Junior (27 de novembro de 1990) ambos nascidos na cidade de Palmeirópolis, interior do estado de Tocantins.",
-        "imagem" => "Imagen/banner-destaque-desktop.jpeg" 
-     ],
-    
-     [   "id" => 13,
-        "nome" => "Chromatica",
-        "data" => "30/07/2023",
-        "local" => "Espaço cantareia , Niteroi-RJ",
-        "preco" => "R$ 2500",
-        "hora" => "22:00",
-        "tipo" => "show",
-        "nivel" => "Turnê",
+        "nivel" => "Evento",
         "genero" => "Pop",
-        "descricao" => "The Chromatica Ball foi a sexta turnê da cantora e compositora norte-americana Lady Gaga, em apoio ao seu sexto álbum de estúdio, Chromatica. A turnê, exclusivamente em estádios, teve início em 17 de julho de 2022, em Düsseldorf, Alemanha, e terminou em 17 de setembro de 2023, em Miami Gardens, Estados Unidos.",
-        "imagem" => "Imagen/chromaticaball.jpg" 
-     ]
+        "descricao" => "Pabllo Vittar,umas das maiores cantoras drag queens do mundo, ",
+        "imagem" => "Imagen/noitada.jpg" 
+    ],   
+    [
+    "id" => 24,
+    "nome" => "O Conto dos Dois Mundos Tour",
+    "data" => "11/10/2023",
+    "local" => "Espaço Fantástico, São Paulo",
+    "preco" => "R$ 100",
+    "hora" => "22:00",
+    "tipo" => "show",
+    "nivel" => "Evento",
+    "genero" => "Pop",
+    "descricao" => "Luísa Sonza, umas das cantoras e compositoras mais aclamadas do pop, fará um show com muita dança e pop do jeito que os fãs merecem.",
+    "imagem" => "Imagen/luisa.jpg" 
+    ],
+
+    [   "id" => 25,
+    "nome" => "Henrique e Juliano",
+    "data" => "31/12/2023",
+    "local" => "Espaço cantareia , Niteroi-RJ",
+    "preco" => "R$ 300",
+    "hora" => "22:00",
+    "tipo" => "show",
+    "nivel" => "Gravação de CD",
+    "genero" => "Sertanejo",
+    "descricao" => "  Henrique e Juliano é uma dupla sertaneja formada pelos irmãos Ricelly Henrique Tavares Reis (23 de maio de 1989) e Edson Alves dos Reis Junior (27 de novembro de 1990) ambos nascidos na cidade de Palmeirópolis, interior do estado de Tocantins.",
+    "imagem" => "Imagen/banner-destaque-desktop.jpeg" 
+    ]
     
     ];
 
