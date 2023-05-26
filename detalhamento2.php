@@ -27,31 +27,41 @@ $indice = $_GET["i"];
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Detalhes</h1>
+
+    <header class="top">    
+
+    <a href="index.php"> <img src="Imagen/seta.png" alt="voltar" class="seta"> </a>
+    <h1 class="titulo"> Star <br> Ingress </h1>
     </header>
+
 	<div class="container-detalhe">
 		
 		
 		<div class="card">
         <?php if(isset($s)){ ?>
-			    <img src="<?=$s["imagem"]?>" alt="<?=$s["nome"]?>">
-			    <h3><?=$s["nome"]?></h3>
-			    <h4><?=$s["local"]?></h4>
-			    <p><?=$s["data"]?> </p>
-			    <p><?=$s["preco"]?> </p>
-                <p><?=$s["hora"]?> </p>
-                <p><?=$s["tipo"]?> </p>
-                <p><?=$s["nivel"]?> </p>
+			    <img src="<?=$s["imagem"]?>" alt="<?=$s["nome"]?>"  class="img2">
+            <div class="para">
+			    <h3 class="paragrafo" ><?=$s["nome"]?></h3>
+			    <h4 class="paragrafo" >Local: <?=$s["local"]?></h4>
+			    <p class="paragrafo" >Data: <?=$s["data"]?> </p>
+			    <p class="paragrafo" >Preço: R$<?=$s["preco"]?> </p>
+                <p class="paragrafo" >Horario: <?=$s["hora"]?> </p>
+                <p class="paragrafo" >Tipo: <?=$s["tipo"]?> </p>
+                <p class="paragrafo" >Nivel: <?=$s["nivel"]?> </p>
+            </div>
             
-        <?php } ?>
-
-			<a href="index.php" class="link">Voltar</a>
-       
-		</div>
-			
-		
+	
 	</div>
+    <hr>
+    <div class="desc">
+
+        <h2 class="sinop">Sinopse/descrição</h2>
+
+        <p class="text" > <?=$c["descricao"]?> </p>
+        <?php } ?>
+    </div>
+
+    <footer class="fundo">  </footer>
 
 </body>
 </html>

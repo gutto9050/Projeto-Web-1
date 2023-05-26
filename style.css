@@ -39,6 +39,7 @@
     line-height: 61px;
     color: #143653;
     text-align: center;
+    margin-bottom: 0px;
 
 }
 .dts{
@@ -61,7 +62,7 @@
     border-radius: 180px;
 }
 .fundo{
-    width: 1250px;
+    width: auto;
     height: 130px;
     left: 0px;
     top: 3038px;
@@ -73,17 +74,18 @@
     left: 559px;
     top: 1110px;
     background: #BEDAFF;
-    margin-left: 37%;
+    margin-left: 40%;
     margin-right: 50%;
-    margin-top: 0px;
+  
 }
 .ponto{
-    width: 267px;
+    width: 480px;
     height: 0px;
-    left: 1100px;
+    left: 1400px;
     top: 175px;
     border: 1px solid #000000;
     margin: 0px;
+    
 }
 .DT{
     display: flex;
@@ -98,6 +100,8 @@
     height: 280px;
     left: 79px;
     top: 1229px;
+    position: absolute;
+    margin-left: 30%;
 
 }
 .dados{
@@ -127,6 +131,93 @@
     color: #000000;
 
 }
+.Cinema img{
+   border: 5px;
+   border-color: #143653;
+}
+.card{
+    background: rgba(255, 237, 203, 0.35);
+   width: auto;
+   height: 565px;
+   left: 0px;
+   top: 0px;
+   margin-bottom: 15px;
+}
+.sinop{
+    font-family: 'Cinzel-decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #777395;
+}
+.text{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-size: 35px;
+    color: #000000;
+
+}
+.seta{
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    width: 46px;
+    height: 46px;
+    
+}
+.paragrafo{
+    font-family: 'Cinzel-decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+.banner{
+    width: auto;
+    height: 700px;
+    margin-left: 2% ;
+    margin-right: auto ;
+    margin-top: 50px;
+}
+.new{
+    position: absolute;
+    left: 1420px;
+    top: 1025px;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-size: 20px;;
+    color: #FFFFFF;
+
+
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+    border-radius: 80px;
+    
+}
+hr{
+    color: #BEDAFF;
+    height: 3px;
+}
+.para{
+    position: absolute;
+    top: 170px ;
+    left: 550px;
+}
+.img2{
+    height: 500px ;
+    width: 500px ;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+ h3.paragrafo {
+    font-size: 45px;
+    line-height: 15px;
+    color: #777395;
+}
 .container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
