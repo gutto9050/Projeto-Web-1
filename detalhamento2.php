@@ -47,14 +47,17 @@ $indice = $_GET["i"];
                 <p><?=$s["hora"]?> </p>
                 <p><?=$s["tipo"]?> </p>
                 <p><?=$s["nivel"]?> </p>
-            
+                <p><?=$s["genero"]?> </p>
+                
+
+
 	
 	</div>
     <hr>
     <div class="desc">
 
         <h2 class="sinop">Sinopse/descrição</h2>
-
+        
         <p class="text" > <?=$s["descricao"]?> </p>
         <?php } ?>
 
