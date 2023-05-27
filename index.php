@@ -17,18 +17,19 @@
          <h1 class="titulo"> Star <br> Ingress </h1>
     </header>
 
-        <div class="DT">
+        <div class="destaque-destacoso">
             <hr  class="ponto" >
-            
-                <h3 class="dts"> Fique atento as datas e localização dos eventos </h3>    
-
+            <h3 class="dts"> Fique atento as datas e localização dos eventos </h3>    
             <hr  class="ponto" >
         </div>
 
     <div class="Destaque">
-
+    
          <h2 class="Medio">Destaque</h2>
          <div class="lines"></div>
+
+         <img src="Imagen/banner-destaque-desktop.jpeg" alt="Banner" class="banner">
+         <a href="detalhamento2.php?i=7" class="new"> Detalhes</a>
 
     </div>
     </div>
@@ -36,30 +37,25 @@
                 <h2 class="Medio">Cinema</h2>
         
     <div class="lines"></div>
-        
-<div class="container">
     
-        <?php foreach ( $evento as $i => $c) { ?>
-                <a href="detalhamento.php?i=<?=$i?>">
-                <h3 class="nome"> <?=$c['nome']?> </h3>
-                <img src="<?=$c["imagem"]?>"  alt="Poster Evento" class="imagem">
-
-                 <div class="circulo"> </div> 
-
-                 <p class="dados"> <?=$c['data']?> </p>
-                 <p class="dados"> <?=$c['tipo']?> </p>
-
-                <a class="link" href="detalhamento.php?i=<?=$i?>"> Detalhes </a> 
-
-         <?php } ?>
-    </div>
-
-
-           <hr>
-
-
-
-</div>    
+    <div class="span">
+        <div class="container">
+            <?php foreach ( $evento as $i => $c) { ?>
+                <div class="container">
+                    <div class="img">
+                        <img class="imagem" src="<?=$c["imagem"]?>"  alt="Poster Evento">
+                        <div class="circulo"> </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="nome"> <?=$c['nome']?> </h3> 
+                        <p class="dados"> <?=$c['data']?> </p>
+                        <p class="dados"> <?=$c['tipo']?> </p>
+                        <a class="link" href="detalhamento.php?i=<?=$i?>"> Detalhes </a> 
+                    </div>
+                </div>
+            <?php } ?>
+        </div>  
+    </div>  
     <div class="Show">
                  <h2 class="Medio">Shows</h2>
                  <div class="lines"></div>

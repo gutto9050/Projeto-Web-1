@@ -39,31 +39,46 @@ $indice = $_GET["i"];
 		
 		<div class="card">
         <?php if(isset($s)){ ?>
-			    <img src="<?=$s["imagem"]?>" alt="<?=$s["nome"]?>">
-			    <h3><?=$s["nome"]?></h3>
-			    <h4><?=$s["local"]?></h4>
-			    <p><?=$s["data"]?> </p>
-			    <p><?=$s["preco"]?> </p>
-                <p><?=$s["hora"]?> </p>
-                <p><?=$s["tipo"]?> </p>
-                <p><?=$s["nivel"]?> </p>
-            
-	
+			    <img src="<?=$s["imagem"]?>" alt="<?=$s["nome"]?>" class="img2" >
+            <div class="para">
+			    <h3  class="paragrafo"><?=$s["nome"]?></h3>
+			    <h4  class="paragrafo"> Local: <?=$s["local"]?></h4>
+			    <p  class="paragrafo"> Data: <?=$s["data"]?> </p>
+			    <p  class="paragrafo">Preço: <?=$s["preco"]?> </p>
+                <p  class="paragrafo">Horario: <?=$s["hora"]?> </p>
+                <p  class="paragrafo">Tipo: <?=$s["tipo"]?> </p>
+                <p  class="paragrafo">Nivel: <?=$s["nivel"]?> </p>
+                <p  class="paragrafo">Genero: <?=$s["genero"]?> </p>
+            </div>
 	</div>
+
+            
+    <div class="cart"> 
+        <img src="Imagen/cart.png" alt="carrinho"> 
+        <p>Reservar ingresso</p>
+     </div>   
+  
+          <div class="arrow">
+          <img src="Imagen/arrow.png" alt="carrinho"> 
+            <p>QTD</p>
+          </div>
+              
+          </div>
+
     <hr>
     <div class="desc">
 
         <h2 class="sinop">Sinopse/descrição</h2>
 
-        <p class="text" > <?=$c["descricao"]?> </p>
+        <p class="text" > <?=$s["descricao"]?> </p>
+
         <?php } ?>
 
-			<a href="index.php" class="link">Voltar</a>
        
 		</div>
 			
 		
-	</div>
+        <footer class="fundo">  </footer>
 
 </body>
 </html>
